@@ -1,0 +1,57 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 编辑器和本地配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境变量和敏感配置
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+secrets/
+
+# 日志和运行产物
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node.js / 服务端 / 后台
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+.cache/
+
+# Flutter / App
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+ios/Pods/
+ios/.symlinks/
+android/.gradle/
+
+# 数据库和临时文件
+*.sqlite
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# 上传和本地生成文件
+uploads/
+storage/
+*.bak
